@@ -32,7 +32,7 @@ import org.springframework.test.web.servlet.MockMvc;
 @SpringBootTest
 @AutoConfigureMockMvc
 public class ApplicationTest {
-
+    //@Autowired是spring的注入注解
     @Autowired
     private MockMvc mockMvc;
 
